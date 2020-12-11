@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Akiba</string>
+    <string name="author">Application développée par Axel ESSONO</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_category">Catégories</string>
+    <string name="title_bookings">Réservations</string>
+    <string name="title_profile">Profil</string>
+    <string name="see_all">Voir tout</string>
+    <string name="categories">Catégories</string>
+</resources>

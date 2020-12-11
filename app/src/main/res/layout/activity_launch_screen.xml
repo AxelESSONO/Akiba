@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".controller.activity.LaunchScreenActivity">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/border_left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <View
+        android:id="@+id/vertial_line"
+        android:layout_width="1dp"
+        android:layout_height="105dp"
+        android:background="@android:color/background_light"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="130dp"
+        android:layout_height="105dp"
+        android:background="@color/purple_200"
+        android:layout_toRightOf="@id/vertial_line"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="250dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:elevation="0dp"
+        android:fontFamily="@font/quick_kiss_personal_use_pxlz"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="90sp" />
+
+
+    <ProgressBar
+        android:id="@+id/my_progressBar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/purple_200"
+        android:progressBackgroundTint="@color/white"
+        android:secondaryProgress="20"
+        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:layout_below="@id/tv_logo"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/author"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
