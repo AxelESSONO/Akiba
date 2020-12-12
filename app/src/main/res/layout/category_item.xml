@@ -22,7 +22,8 @@
             android:layout_height="120dp"
             android:layout_alignParentTop="true"
             android:background="@color/greyLight"
-            android:src="@drawable/ic_plumber_man"/>
+            android:src="@drawable/ic_plombier"
+            android:scaleType="centerCrop"/>
 
         <TextView
             android:layout_width="wrap_content"
